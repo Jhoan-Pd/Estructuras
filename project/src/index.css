@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    @apply bg-[#292626] text-white;
+}
+
+.container {
+    background-color: #c90c0c; /* Fondo oscuro más claro para secciones */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+button {
+    background-color: #3a3537; /* Un color llamativo para botones */
+    color: #d10606;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #1ee2e9;
+}
+/* Estilos generales con fondo degradado */
+body {
+    background: linear-gradient(135deg, #292626, #1c1c1c);
+    color: #d60909;
+    font-family: Arial, sans-serif;
+}
+
+/* Ajuste para la biblioteca de canciones */
+.library {
+    background: linear-gradient(135deg, #2e2b2b, #5a1212);
+    border-radius: 10px;
+    padding: 15px;
+}
+
+/* Ajuste para el reproductor */
+.player {
+    background: linear-gradient(135deg, #3b3737, #292626);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* Botones con efecto hover */
+.button {
+    background: #4a4a4a;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+.button:hover {
+    background: #626262;
+}
